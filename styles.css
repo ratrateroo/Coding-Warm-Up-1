@@ -1,0 +1,33 @@
+:root {
+    --dark-green: #1F4400;
+    --green: #1D4C00;
+    --light-orange: #D99518;
+    --bright-orange: #D97A07;
+    --dark-orange: #A64208;
+  }
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    background-color: gray;
+}
+
+body{
+    width: 90%;
+    background-color: whitesmoke;
+    margin: 25px auto;
+}
+
+.menu .menu-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    height: 100vh;
+}
