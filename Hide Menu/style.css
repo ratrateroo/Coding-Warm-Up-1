@@ -83,3 +83,41 @@ section.sec4 h1{
 section.sec4 p{
     font-size: 18px;
 }
+
+section.sec5{
+    background: url(summer.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.sec6{
+    padding: 100px;
+    height: auto;
+}
+section.sec6 h1{
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    color: #262626;
+}
+section.sec6 p{
+    font-size: 18px;
+}
+
+section.sec7{
+    background: url(fall.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.sec8{
+    padding: 100px;
+    height: auto;
+}
+section.sec8 h1{
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    color: #262626;
+}
+section.sec8 p{
+    font-size: 18px;
+}
