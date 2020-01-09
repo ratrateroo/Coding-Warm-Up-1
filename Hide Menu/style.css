@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.navbar .channel {
+    position: relative;
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    float: right;
+    background: rgba(0,0,0,.5);
+}
+.navbar ul li{
+    list-style: none;
+    line-height: 80px;
+    text-align: center;
+}
+.navbar ul li a{
+    display: block;
+    padding: 0 30px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: #fd2928;
+    color: #fff;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+section.sec1{
+    background: url(winter.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.sec2{
+    padding: 100px;
+    height: auto;
+}
+section.sec2 h1{
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    color: #262626;
+}
+section.sec2 p{
+    font-size: 18px;
+}
+
+section.sec3{
+    background: url(spring.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.sec4{
+    padding: 100px;
+    height: auto;
+}
+section.sec4 h1{
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    color: #262626;
+}
+section.sec4 p{
+    font-size: 18px;
+}
